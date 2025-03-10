@@ -56,6 +56,7 @@ public class ClientMain {
         list.forEach(vehicle -> {
             System.out.println(vehicle.toString());
         });
+        scanner.close();
     }
 }
 
