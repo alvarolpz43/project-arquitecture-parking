@@ -97,6 +97,9 @@ public class VehicleRepository implements IVehicleRepository {
 
     public void connect() {
         // SQLite connection string
+
+        //para que la informacion se guarde en base de datos debemos, hacer cambios en el test o se 
+        //obtendran errores por parte de: PersistenceTest
         //String url = "jdbc:sqlite:./mydatabase.db";
         String url = "jdbc:sqlite::memory:";
 

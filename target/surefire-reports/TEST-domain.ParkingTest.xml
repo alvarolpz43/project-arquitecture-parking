@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="domain.ParkingTest" time="0.255" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="domain.ParkingTest" time="0.234" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire2350069134240454988\surefirebooter-20250309231210255_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire2350069134240454988 2025-03-09T23-12-10_121-jvmRun1 surefire-20250309231210255_1tmp surefire_0-20250309231210255_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8697165160314098110\surefirebooter-20250310000319887_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire8697165160314098110 2025-03-10T00-03-19_733-jvmRun1 surefire-20250310000319887_1tmp surefire_0-20250310000319887_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ADMIN\Desktop\project-arquitecture-parking\target\test-classes;C:\Users\ADMIN\Desktop\project-arquitecture-parking\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\ADMIN\.m2\repository\org\xerial\sqlite-jdbc\3.27.2\sqlite-jdbc-3.27.2.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.3\gson-2.3.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\ADMIN\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\ADMIN\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\ADMIN\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ADMIN\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\ADMIN\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ADMIN\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ADMIN\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\ADMIN\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\ADMIN\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\ADMIN\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\ADMIN\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\ADMIN\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\ADMIN\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\ADMIN\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;C:\Users\ADMIN\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\ADMIN\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\ADMIN\.m2\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;C:\Users\ADMIN\.m2\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;C:\Users\ADMIN\.m2\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;C:\Users\ADMIN\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\Users\ADMIN\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\ADMIN\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire2350069134240454988\surefirebooter-20250309231210255_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8697165160314098110\surefirebooter-20250310000319887_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -59,23 +59,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="CarTest" classname="domain.ParkingTest" time="0.204">
+  <testcase name="CarTest" classname="domain.ParkingTest" time="0.193">
     <system-out><![CDATA[Carro 2 horas y 10 minutos
 Carro menos una hora
 Carro 1 hora y 30 minutos
 ]]></system-out>
   </testcase>
-  <testcase name="TruckTest" classname="domain.ParkingTest" time="0.006">
+  <testcase name="TruckTest" classname="domain.ParkingTest" time="0.004">
     <system-out><![CDATA[Camión menos de 12 horas
 Camión más de 12 horas
 Camión 3 días y una hora
 ]]></system-out>
   </testcase>
-  <testcase name="PersistenceTest" classname="domain.ParkingTest" time="0.01">
+  <testcase name="PersistenceTest" classname="domain.ParkingTest" time="0.008">
     <system-out><![CDATA[Guardar y listar
 ]]></system-out>
   </testcase>
-  <testcase name="MotosTest" classname="domain.ParkingTest" time="0.004">
+  <testcase name="MotosTest" classname="domain.ParkingTest" time="0.005">
     <system-out><![CDATA[Moto hora y media
 Moto menos una hora
 Moto 3 horas y 45 minutos
