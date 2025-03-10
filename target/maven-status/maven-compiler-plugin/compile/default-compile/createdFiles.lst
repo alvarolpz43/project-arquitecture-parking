@@ -2,10 +2,10 @@ domain\CarParkingCost.class
 infra\Utilities.class
 domain\Vehicle.class
 access\IVehicleRepository.class
-presentation\ClientMain.class
 domain\ParkingCostFactory.class
 domain\service\Service.class
 domain\IParkingCost.class
+parkinglot\presentation\ClientMain.class
 domain\TruckParkingCost.class
 access\RepositoryFactory.class
 infra\Lottery.class
