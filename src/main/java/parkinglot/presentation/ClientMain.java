@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.presentation;
-import co.unicauca.parkinglot.access.IVehicleRepository;
-import co.unicauca.parkinglot.access.RepositoryFactory;
-import co.unicauca.parkinglot.domain.Vehicle;
-import co.unicauca.parkinglot.domain.TypeEnum;
-import co.unicauca.parkinglot.domain.service.Service;
-import co.unicauca.parkinglot.infra.Lottery;
+package parkinglot.presentation;
+import parkinglot.access.IVehicleRepository;
+import parkinglot.access.RepositoryFactory;
+import parkinglot.domain.Vehicle;
+import parkinglot.domain.TypeEnum;
+import parkinglot.domain.service.Service;
+import parkinglot.infra.Lottery;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.List;
@@ -18,11 +18,11 @@ import java.util.List;
 /**
  * Un cliente main de prueba
  *
- * @author Libardo
+ * @author ADMIN
  */
 public class ClientMain {
     public static void main(String[] args) {
-        Vehicle veh = new Vehicle("FTK-123", TypeEnum.MOTO);
+        Vehicle veh = new Vehicle("SKN-86A", TypeEnum.MOTO);
         LocalDateTime input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0);
         LocalDateTime output = LocalDateTime.of(2021, Month.FEBRUARY, 22, 19, 30);
         IVehicleRepository repo = RepositoryFactory.getInstance().getRepository("default");

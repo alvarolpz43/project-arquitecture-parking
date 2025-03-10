@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.infra;
+package parkinglot.infra;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class Utilities {
     static public long redondeo(double cost){

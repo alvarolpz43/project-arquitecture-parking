@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.access;
+package parkinglot.access;
 
-import co.unicauca.parkinglot.domain.Vehicle;
+import parkinglot.domain.Vehicle;
 import java.util.List;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public interface IVehicleRepository {
     boolean save(Vehicle newVehicle);

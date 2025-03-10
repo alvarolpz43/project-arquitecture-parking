@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.access;
+package parkinglot.access;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class RepositoryFactory {
     private static RepositoryFactory instance;

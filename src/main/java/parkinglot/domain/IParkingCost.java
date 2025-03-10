@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain;
+package parkinglot.domain;
 import java.time.LocalDateTime;
-import co.unicauca.parkinglot.infra.Utilities;
+import parkinglot.infra.Utilities;
 
 /**
  * Interfaz para calcular el costo del parqueadero de cualquier tipo de
  * vehiculo: carro, moto, camión
  *
- * @author Libardo
+ * @author ADMIN
  */
 public interface IParkingCost {
 

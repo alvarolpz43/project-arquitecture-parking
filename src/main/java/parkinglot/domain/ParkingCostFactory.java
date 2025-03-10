@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain;
+package parkinglot.domain;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
  * Fábrica de que utiliza el patrón de diseño Singleton para generar una
  * instancia de la interfaz IParkingCost
  *
- * @author Libardo, Julio
+ * @author ADMIN
  */
 public class ParkingCostFactory {
 

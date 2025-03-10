@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain;
+package parkinglot.domain;
 
-import co.unicauca.parkinglot.access.IVehicleRepository;
-import co.unicauca.parkinglot.access.RepositoryFactory;
-import co.unicauca.parkinglot.domain.service.Service;
+import parkinglot.domain.TypeEnum;
+import parkinglot.domain.Vehicle;
+import parkinglot.access.IVehicleRepository;
+import parkinglot.access.RepositoryFactory;
+import parkinglot.domain.service.Service;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.List;
@@ -16,7 +18,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class ParkingTest {
     

@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain;
+package parkinglot.domain;
 
-import co.unicauca.parkinglot.infra.Utilities;
+import parkinglot.infra.Utilities;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class CarParkingCost implements IParkingCost{
 

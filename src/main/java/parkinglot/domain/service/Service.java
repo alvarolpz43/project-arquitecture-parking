@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain.service;
+package parkinglot.domain.service;
 
-import co.unicauca.parkinglot.access.IVehicleRepository;
-import co.unicauca.parkinglot.domain.IParkingCost;
-import co.unicauca.parkinglot.domain.ParkingCostFactory;
-import co.unicauca.parkinglot.domain.Vehicle;
+import parkinglot.access.IVehicleRepository;
+import parkinglot.domain.IParkingCost;
+import parkinglot.domain.ParkingCostFactory;
+import parkinglot.domain.Vehicle;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class Service {
     private IVehicleRepository repository;

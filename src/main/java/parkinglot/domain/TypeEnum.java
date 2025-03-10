@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.domain;
+package parkinglot.domain;
 
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public enum TypeEnum {
     MOTO, CAR, TRUCK

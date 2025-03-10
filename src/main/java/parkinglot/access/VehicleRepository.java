@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkinglot.access;
-import co.unicauca.parkinglot.domain.TypeEnum;
-import co.unicauca.parkinglot.domain.Vehicle;
-import co.unicauca.parkinglot.domain.service.Service;
+package parkinglot.access;
+import parkinglot.domain.TypeEnum;
+import parkinglot.domain.Vehicle;
+import parkinglot.domain.service.Service;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -19,7 +19,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
  *
- * @author YAQUE
+ * @author ADMIN
  */
 public class VehicleRepository implements IVehicleRepository {
     private Connection conn;
