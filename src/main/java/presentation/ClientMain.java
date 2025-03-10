@@ -13,6 +13,7 @@ import infra.Lottery;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.List;
+import java.util.Scanner;
 
 
 /**
@@ -22,7 +23,14 @@ import java.util.List;
  */
 public class ClientMain {
     public static void main(String[] args) {
-        Vehicle veh = new Vehicle("SKN-86A", TypeEnum.MOTO);
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        
+        System.out.println("Ingrese la placa");
+        String placa = scanner.nextLine();
+        
+        Vehicle veh = new Vehicle(placa, TypeEnum.MOTO);
         LocalDateTime input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0);
         LocalDateTime output = LocalDateTime.of(2021, Month.FEBRUARY, 22, 19, 30);
         IVehicleRepository repo = RepositoryFactory.getInstance().getRepository("default");
